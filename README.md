@@ -47,16 +47,3 @@ To execute the predefined or user-defined trajectory using the offboard RL node:
 ros2 run offboard_rl trajectory
 ```
 
-* When prompted, you can either enter custom waypoints manually or press Enter to use the default trajectory.
-
-## Notes
-
-* Make sure all ROS2 nodes are running in the same workspace.
-* For keyboard input of custom waypoints, follow the format:
-
-```
-x y z yaw; x y z yaw; ...
-```
-
-* The drone uses the NED coordinate frame (z-axis is negative for altitude).
-
