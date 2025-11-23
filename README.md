@@ -41,7 +41,7 @@ ros2 run px4_ros_com offboard_control
 
 ## Executing a Trajectory
 
-To execute the predefined or user-defined trajectory using the offboard RL node:
+To execute the predefined trajectory using the offboard RL node:
 
 ```bash
 ros2 run offboard_rl trajectory
